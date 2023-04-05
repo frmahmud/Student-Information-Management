@@ -1,0 +1,120 @@
+
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:900px;
+	margin-left:0%;
+	
+	margin-top:0px;  <!-- Actual Height from top-->
+	margin-bottom:0px;
+    box-shadow:0px 1px 3x rgba(0,0,0,0.2);
+	display:block;
+}
+ 
+.menu {
+    width:900px;
+    margin:0px auto;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+	background:#274257;
+	border-right:2px solid #000;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+	text-decoration:none;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:red;
+}
+ 
+.menu .arrow {
+    font-size:10px;
+    line-height:0%;
+}
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:13px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 10px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+/*----- List under list -----*/
+.sub-menu li:hover .sub-menu-content {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu ul {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu ul li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu ul li a {
+    padding:5px 10px;
+    display:block;
+}
+ 
+.sub-menu-content li a:hover, .sub-menu-content .current-item a {
+    background:#00ff40;
+}

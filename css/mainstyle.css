@@ -1,0 +1,13 @@
+		#myheader{height:70px; width:900px;background-color:#80ff00;
+		text-align:center;margin-left:50px;}
+		#myphoto{height:250px; width:900px;background-color:green;
+		margin-left:50px;}
+		.menu-wrap{height:36px; width:900px;background-color:#274257;
+		margin-left:50px;}
+		#section1{height:700px; width:900px;background-color: lightblue;
+		         text-align:justify;font-size:22px;margin-left:50px;}
+		.head {font-weight: bold; font-size: 30px;text-align: center;
+		       text-decoration: underline;}
+	   #myfooter {height: 50px; width: 900px;background-color: red;
+	             text-align: center;margin-left:50px;}
+	   

@@ -44,3 +44,5 @@ Update the config.php or database connection file with your local credentials.
 Move the project folder to your htdocs or www directory.
 
 Access the system via localhost/Student-Information-Management.
+
+For any query, please email me at 

@@ -45,4 +45,4 @@ Move the project folder to your htdocs or www directory.
 
 Access the system via localhost/Student-Information-Management.
 
-For any query, please email me at 
+For any query, please email me at fmahmud.ruet@
